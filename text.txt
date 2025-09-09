@@ -41,4 +41,14 @@ cd : 다른 디렉토리로 이동
 
     git add . 현재 폴더에 전체 파일을 올림
 
-7.
+7. 여러 파일 커밋
+    git commit -m "버전관리01"
+
+8. 브랜치 생성
+    git branch -M main
+
+9. 깃허브와 연결
+    git remote add origin https://github.com/rogerthat1243/web.git   // 주소
+
+10. 만든 커밋 github 푸시
+    git push -u origin main
